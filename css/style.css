@@ -35,19 +35,18 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 400;
     color: #555;
-    color: #444;
-    color: #777;
+    font-family: 'Poppins', sans-serif;
 }
 
 h4 {
-    color: #444;
-    font-size: 24px;
-    font-style: italic;
+    color: #555;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -69,6 +68,9 @@ a {
     color: #4c81b6;
 
     color: #01aab6;
+    color: #0ca6ab;
+    color: #1aadb2;
+    text-decoration: none; 
 }
 
 a:hover {
@@ -93,14 +95,16 @@ a:hover {
     /* color: #3684b1; */
     color: #4392c1;
     color: #00909b;
+    color: #15a1a6;
+    color: #119ba0;
+    /* color: #00838c; */
     /* color: #008992; */
-    /* text-decoration: underline; */
-    text-decoration: none; 
+    text-decoration: underline;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #888;
+    border-top: 1px solid #bbb;
     margin: 4rem auto;
     width: 40%;
 }
@@ -125,6 +129,7 @@ button {
     box-shadow: 0 0px 8px rgb(0 0 0 / 20%);
     cursor: pointer;
     padding: 4px 0;
+    padding: 3px 0;
 }
 
 .nav-site-title {
@@ -136,8 +141,10 @@ button {
     /* color: #88a5d1; */
     font-size: 26px;
     font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
     padding: 2px 0 6px;
+    padding: 1px 0 4px;
 
     display: flex;
     justify-content: center;
@@ -170,6 +177,7 @@ button {
     /* background-image: linear-gradient(90deg, #ebcf84, #7ab3cc, #587ec1); */ /* -- old --*/
 
     background-color: #01aab6;
+    background-color: #1aadb2;
 }
 
 /* .nav-menu:hover {
@@ -191,10 +199,11 @@ button {
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
-    letter-spacing: .25px;
+    /* letter-spacing: .25px; */
     padding: 7px 16px 8px;
     padding: 7px 16px;
     padding: 6px 18px;
+    padding: 5px 18px;
 }
 
 .nav-menu-item:hover {
@@ -238,7 +247,7 @@ button {
     background-image: url(../assets/images/tatiana-zhukova-wVRrpDI6qB0-unsplash.jpg);
     background-image: url(../assets/images/tatiana-zhukova-wVRrpDI6qB0-unsplash2.jpg);
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/developer/louise-viallesoubranne-OtO5I2R_494-unsplash.jpg);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../assets/developer/louise-viallesoubranne-OtO5I2R_494-unsplash.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)), url(../assets/developer/louise-viallesoubranne-OtO5I2R_494-unsplash.jpg);
     
     background-size: cover;
 }
@@ -259,6 +268,7 @@ section.hero {
     padding: 9rem 8rem;
     padding: 12rem 8rem;
     padding: 12% 8rem;
+    padding: 12% 7rem;
     position: relative;
     z-index: 1;
 }
@@ -287,12 +297,19 @@ section.hero {
     color: #97dce1;
     color: #a2e4e8;
 
+    color: #aaeaef;
+    color: #a2e4e8;
+    color: #ade3e7;
+
+    color: #a2e4e8;
+
     font-size: 190px;
     font-size: 180px;
     font-size: 160px;
     font-weight: 900;
     letter-spacing: -6px;
     font-size: 140px;
+    /* font-size: 150px; */
     font-weight: 600;
     letter-spacing: -4px;
     line-height: 1;
@@ -308,12 +325,18 @@ section.hero {
     color: #666;
     color: #777;
     color: rgb(255 255 255 / 95%);
+    color: #d3ddde;
+    color: #ddd;
+    text-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
     font-size: 280%;
     font-size: 260%;
+    font-size: 240%;
+    font-size: 230%;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.25;
+    /* line-height: 1.5; */
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-btn {
@@ -354,6 +377,7 @@ section.hero {
     color: #608fc6;
     color: #5392c5;
     color: #01aab6;
+    color: #1aadb2;
     margin-left: 1rem;
     font-size: 110%;
 }
@@ -382,13 +406,13 @@ section.intro {
 
 .intro-header {
     width: 75%;
-    margin: 0 auto 2.5rem;
+    margin: 0 auto 2.25rem;
 }
 
 .intro-title {
     display: flex;
     justify-content: center;
-    margin-bottom: .5rem;
+    margin-bottom: .75rem;
 }
 
 .intro-title .fragment-1 {
@@ -416,28 +440,50 @@ section.intro {
     color: #3f8bb6;
     color: #3f82b6;
     color: #666;
+    color: #999;
+    color: #aaa;
     /* color: #888; */
 }
 
-.additional-note-list {
+.content-curator-notes {
+    width: 90%;
+    margin: auto;
+}
+
+.content-curator-list {
     text-align: left;
     padding-left: 2rem;
 }
 
-.additional-note-list p {
-    font-size: 20px;
-    color: #666;
+.content-curator-list li {
+    margin-bottom: .875rem;
 }
 
-.additional-note-list a {
+.content-curator-list li:last-child {
+    margin-bottom: 0;
+}
+
+.content-curator-list p {
+    font-size: 20px;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* .content-curator-list li:last-child p {
+    margin-bottom: 0;
+} */
+
+.content-curator-list a {
     /* display: inline-flex; */
     /* align-items: center; */
 }
 
-.additional-note-list i {
-    margin: 0 5px 0 2px;
+.content-curator-list i {
+    margin: 0 6px 0 4px;
     text-decoration: none;
     font-size: 90%;
+    font-size: 80%;
 }
 
 /* ===============( Projects Section )============== */
@@ -451,7 +497,7 @@ section.footer {
     border-radius: 20px;
     /* border-radius: 18px; */
     margin-bottom: 6rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
     padding: 1rem 3rem;
     text-align: center;
 
@@ -459,7 +505,7 @@ section.footer {
     background-color: rgb(105 152 198 / 25%);
     background-color: rgba(113, 164, 204, 0.25);
     background-color: rgba(0, 120, 128, 0.1);
-    background-color: rgb(32 32 32 / 10%);
+    background-color: rgb(32 32 32 / 8%);
     /* border-radius: 16px; */
 }
 
@@ -471,8 +517,9 @@ section.footer {
 
 .footer-title {
     color: #333;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
+    font-family: 'EB Garamond', serif;
 }
 
 section.footer p {
