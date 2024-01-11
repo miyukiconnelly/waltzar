@@ -454,7 +454,7 @@ section.intro {
 }
 
 .content-curator-notes {
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
 }
 
@@ -465,6 +465,7 @@ section.intro {
 
 .content-curator-list li {
     margin-bottom: .875rem;
+    margin-bottom: 1rem;
 }
 
 .content-curator-list li:last-child {
@@ -473,7 +474,8 @@ section.intro {
 
 .content-curator-list p {
     font-size: 20px;
-    font-size: 18px;
+    /* font-size: 18px; */
+    /* font-size: 19px; */
     color: #666;
     margin-bottom: 0;
 }
